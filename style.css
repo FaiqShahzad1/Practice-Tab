@@ -25,6 +25,7 @@
 
 .nav-gap {
     display: flex;
+    gap: 30px;
 }
 
 .nav-heading {
@@ -151,7 +152,7 @@
 }
 
 .main-h3 {
-    padding-top: 60px;
+    padding-top: 50px;
     font-size: 42px;
     text-align: center;
 }
@@ -161,7 +162,6 @@
     justify-content: center;
     padding-top: 60px;
     gap: 100px;
-    text-align: center;
 }
 
 .main-p2 {
@@ -197,6 +197,8 @@
     gap: 30px;
     margin-bottom: 10px;
     margin-bottom: 80px;
+    flex-wrap: wrap;
+
 }
 
 .main-p5 {
@@ -204,9 +206,131 @@
     align-items: center;
 }
 
+.img12 {
+    width: 94px;
+    height: 95px;
+}
+
+.img13 {
+    width: 94px;
+    height: 95px;
+}
+
+.img14 {
+    width: 94px;
+    height: 95px;
+}
+
+.img-div {
+    align-items: center;
+    text-align: center;
+}
+
+.img-div1 {
+    align-items: center;
+    text-align: center;
+}
+
+.red {
+    background-color: #871E27;
+    text-align: center;
+    color: white;
+}
+
+.login-h {
+    padding-top: 85px;
+    font-size: 42px;
+}
+
+.login-p {
+    font-size: 22px;
+    padding-top: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+    font-size: 18px;
+}
 
 
-@media(max-width:320px) {
+.login-div {
+    padding-top: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.login-name {
+    text-align: left;
+    margin-top: 25px;
+}
+
+.name {
+    width: 320px;
+    border-radius: 4px;
+    border: none;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.button {
+    display: block;
+    margin-top: 30px;
+    background-color: #9ca3af;
+    width: 160px;
+    height: 36px;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 50px;
+}
+
+.button-p {
+    font-size: 14px;
+}
+
+.textarea {
+    width: 320px;
+    height: 207.31px;
+    border-radius: 4px;
+    border: none;
+}
+
+.button1 {
+    display: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #9ca3af;
+    width: 160px;
+    height: 36px;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 50px;
+}
+
+.footer {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap: 365px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.p0 {
+    font-size: 19px;
+}
+
+.h0 {
+    font-size: 17px;
+}
+
+
+
+@media (max-width:320px) {
     .nav-container {
         width: 100%;
         height: 45px;
@@ -283,8 +407,121 @@
 
     .main-div {
         overflow-x: scroll;
+        scrollbar-width: none;
+
     }
 
+    .main-img-dot {
+        display: none;
+    }
+
+    .main-img-dot1 {
+        display: none;
+    }
+
+    .main-h3 {
+        font-size: 32px;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main-div-img {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+    .main-p2 {
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .main-p3 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main-p4 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main-line {
+        margin-top: 20px;
+    }
+
+
+    .main-div-img1 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main-p5 {
+        text-align: center;
+    }
+
+    .container {
+        flex-direction: column;
+        gap: 0px;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .login-div {
+        flex-direction: column;
+        padding-top: 0px;
+    }
+
+    .login-name {
+        padding-left: 10px;
+    }
+
+    .co1 {
+        margin-top: 0px;
+        margin-bottom: 5px;
+        margin-left: 4px;
+    }
+
+    .name {
+        width: 288px;
+        height: 40px;
+    }
+
+    .button {
+        display: none;
+
+    }
+
+    .button1 {
+        display: block;
+        margin-left: 20px;
+    }
+
+    .textarea {
+        width: 288px;
+        height: 200px;
+    }
+
+    .footer {
+        gap: 0px;
+        width: 360px;
+    }
+
+    .p0 {
+        width: 10px;
+    }
+
+    .h0 {
+        width: 10px;
+
+    }
 }
 
 @media(min-width:375px) and (max-width:424px) {
@@ -325,6 +562,7 @@
         gap: 0px;
     }
 
+
     .main-h1 {
         font-size: 13.1px;
         text-align: center;
@@ -360,6 +598,147 @@
         height: 48px;
     }
 
+    .main-div {
+        overflow-x: scroll;
+        scrollbar-width: none;
+    }
+
+    .main-img-dot {
+        display: none;
+    }
+
+    .main-img-dot1 {
+        display: none;
+    }
+
+    .main-h3 {
+        font-size: 32px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 35px;
+
+    }
+
+    .main-div-img {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .main-p2 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main-p3 {
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .main-p4 {
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .main-div-img1 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .main-p5 {
+        text-align: center;
+    }
+
+    .img12 {
+        height: 120px;
+        width: 120px;
+    }
+
+    .img13 {
+        height: 120px;
+        width: 120px;
+    }
+
+    .img14 {
+        height: 120px;
+        width: 120px;
+    }
+
+    .img15 {
+        width: 325px;
+        height: 345px;
+    }
+
+    .img16 {
+        width: 325px;
+        height: 345px;
+    }
+
+    .img17 {
+        width: 325px;
+        height: 345px;
+    }
+
+    .container {
+        flex-direction: column;
+        gap: 0px;
+        text-align: left;
+        padding-left: 40px;
+    }
+
+    .login-div {
+        flex-direction: column;
+        padding-top: 0px;
+    }
+
+    .login-name {
+        padding-left: 40px;
+    }
+
+    .co1 {
+        margin-top: 0px;
+        margin-bottom: 5px;
+        margin-left: 4px;
+    }
+
+    .name {
+        width: 288px;
+        height: 40px;
+    }
+
+    .button {
+        display: none;
+
+    }
+
+    .button1 {
+        display: block;
+        margin-left: 50px;
+    }
+
+    .textarea {
+        width: 288px;
+        height: 200px;
+    }
+
+    .footer {
+        gap: 0px;
+        width: 375px;
+    }
+
+    .p0 {
+        width: 10px;
+    }
+
+    .h0 {
+        width: 10px;
+        margin-left: 60px;
+
+    }
 }
 
 @media(min-width:425px) and (max-width:767px) {
@@ -400,6 +779,8 @@
         gap: 0px;
     }
 
+
+
     .main-h1 {
         font-size: 13.1px;
         text-align: center;
@@ -434,7 +815,149 @@
         width: 385px;
         height: 48px;
     }
+
+    .main-div {
+        overflow-x: scroll;
+        scrollbar-width: none;
+    }
+
+    .main-img-dot {
+        display: none;
+    }
+
+    .main-img-dot1 {
+        display: none;
+    }
+
+    .main-h3 {
+        font-size: 32px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 35px;
+
+    }
+
+    .main-div-img {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .main-p2 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main-p3 {
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .main-p4 {
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .main-div-img1 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main-p5 {
+        text-align: center;
+    }
+
+    .img12 {
+        height: 120px;
+        width: 120px;
+    }
+
+    .img13 {
+        height: 120px;
+        width: 120px;
+    }
+
+    .img14 {
+        height: 120px;
+        width: 120px;
+    }
+
+    .img15 {
+        width: 325px;
+        height: 345px;
+    }
+
+    .img16 {
+        width: 325px;
+        height: 345px;
+    }
+
+    .img17 {
+        width: 325px;
+        height: 345px;
+    }
+
+    .container {
+        flex-direction: column;
+        gap: 0px;
+        text-align: left;
+        padding-left: 60px;
+    }
+
+    .login-div {
+        flex-direction: column;
+        padding-top: 0px;
+    }
+
+    .login-name {
+        padding-left: 60px;
+    }
+
+    .co1 {
+        margin-top: 0px;
+        margin-bottom: 5px;
+        margin-left: 4px;
+    }
+
+    .name {
+        width: 288px;
+        height: 40px;
+    }
+
+    .button {
+        display: none;
+
+    }
+
+    .button1 {
+        display: block;
+        margin-left: 70px;
+    }
+
+    .textarea {
+        width: 288px;
+        height: 200px;
+    }
+
+    .footer {
+        gap: 0px;
+        width: 360px;
+    }
+
+    .p0 {
+        width: 10px;
+    }
+
+    .h0 {
+        width: 10px;
+        margin-left: 60px;
+
+    }
 }
+
 
 @media(min-width:768px) and (max-width:1024px) {
     .nav-container {
@@ -507,5 +1030,84 @@
         width: 128px;
         height: 48px;
         margin-left: 275px;
+    }
+
+    .main-div {
+        overflow-x: scroll;
+        scrollbar-width: none;
+    }
+
+    .main-img-dot {
+        display: none;
+    }
+
+    .main-img-dot1 {
+        display: none;
+    }
+
+    .main-h3 {
+        font-size: 32px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 35px;
+
+    }
+
+    .main-div-img {
+        display: flex;
+        gap: 0px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main-p2 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main-p3 {
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .main-p4 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main-div-img1 {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main-p5 {
+        text-align: center;
+    }
+
+    .img-div1 {
+        width: 260px;
+        height: 207px;
+    }
+
+    .img15 {
+        width: 325px;
+        height: 345px;
+    }
+
+    .img16 {
+        width: 325px;
+        height: 345px;
+    }
+
+    .img17 {
+        width: 325px;
+        height: 345px;
+    }
+
+    .footer {
+        gap: 60px;
     }
 }
